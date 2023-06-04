@@ -1,0 +1,152 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2f50c;
+    color: #333;
+}
+
+add-to-cart-button {
+    position: bottom;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#banner {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+#products {
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* styling navlist */
+#navlist {
+    background-color: #0074D9;
+    position: absolute;
+    width: 100%;
+}
+
+/* styling navlist anchor element */
+#navlist a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlist-right {
+    float: right;
+}
+
+/* hover effect of navlist anchor element */
+#navlist a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* styling search bar */
+.search input[type=text] {
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: #333;
+    float: none;
+    padding: 20px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.search form button {
+    
+}
+
+.search {
+    float: center;
+    margin: 7px;
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 25px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+
+.search form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search form button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 45px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+    margin-top: 10px;
+    top: 1%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
